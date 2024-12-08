@@ -10,6 +10,7 @@ print("Let's Start the Game :) ",name_player)
 
 score = 0
 
+#This section deals with the logic for the game
 answer = input(' What is CPU stands for? \n ')
 if answer.lower() == 'central processing unit':
     print("Correct")
